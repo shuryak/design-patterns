@@ -6,7 +6,7 @@ namespace FactoryMethod.Products
     {
         public string Operation()
         {
-            return "{Result of ConcreteProduct2}";
+            return "{Result of SomeProduct2}";
         }
     }
 }
