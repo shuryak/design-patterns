@@ -7,7 +7,7 @@ namespace FactoryMethod.Creators
     {
         protected override IProduct FactoryMethod()
         {
-            return new SameProduct1();
+            return new SomeProduct1();
         }
     }
 }
