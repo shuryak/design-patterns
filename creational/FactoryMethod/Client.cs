@@ -4,6 +4,13 @@ using FactoryMethod.Creators;
 
 namespace FactoryMethod
 {
+    /*
+     * Factory Method is a creational design pattern that provides an interface 
+     * for creating objects in a superclass, but allows subclasses to change 
+     * the type of objects that will be created.
+     * 
+     * Factory method is a method to override returning object.
+     */
     public class Client
     {
         public void Main()
