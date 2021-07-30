@@ -6,7 +6,7 @@ namespace DesignPatterns
     {
         private static void Main(string[] args)
         {
-            new Structural.Bridge.Client().Main(); // you can specify another pattern
+            new Structural.Composite.Client().Main(); // you can specify another pattern
             Console.ReadLine();
         }
     }
