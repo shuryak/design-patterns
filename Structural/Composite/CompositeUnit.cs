@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using System.Linq;
-using DesignPatterns.Structural.Composite.Units;
 
 namespace DesignPatterns.Structural.Composite
 {

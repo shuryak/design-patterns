@@ -16,7 +16,7 @@ namespace DesignPatterns.Structural.Adapter
             Console.WriteLine(target.GetRequest());
                         
             IncompatibleService incompatibleService = new IncompatibleService();
-            target = new global::DesignPatterns.Structural.Adapter.Adapter(incompatibleService);
+            target = new Adapter(incompatibleService);
             Console.WriteLine(target.GetRequest());
         }
     }
